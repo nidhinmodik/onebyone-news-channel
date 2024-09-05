@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "66bb223ad270bf304776fa89"
+  },
+  "name": "Melvin",
+  "email": "melvin@gmail.com",
+  "password": "$2a$10$q6NMJSxbp8vRORDP0Q1qnuAzxiD6tpOABu7U8DNOQ6VWwEmwlFD36",
+  "role": "admin",
+  "category": "all",
+  "image": ""
+},
+{
+  "_id": {
+    "$oid": "66bf6416488fb3517c013ff0"
+  },
+  "name": "ajmal",
+  "email": "ajmal@gmail.com",
+  "password": "$2b$10$2Ztrx4q5nCXfW3BPU1mcsuh4ow79bdQtdbT3HOIvg5c6pfor1CNVm",
+  "role": "writer",
+  "image": "",
+  "category": "Education",
+  "createdAt": {
+    "$date": "2024-08-16T14:37:10.430Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-16T14:37:10.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bf6439488fb3517c013ff4"
+  },
+  "name": "amal sanal",
+  "email": "amal@gmail.com",
+  "password": "$2b$10$vADr9esWPW42.xK4ioDgC.Lj/Wo5HWwyrGgEqQ85ezqnGVT2ebLD6",
+  "role": "writer",
+  "image": "",
+  "category": "Travel",
+  "createdAt": {
+    "$date": "2024-08-16T14:37:45.688Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-16T14:37:45.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bfa0b6488fb3517c014029"
+  },
+  "name": "sanjay",
+  "email": "sanjay@gmail.com",
+  "password": "$2b$10$oPOerOwD0CUI5Lr0.IfWxOX4V1TCWVUu.bVFB4Ea7TzsNIrz/4./.",
+  "role": "writer",
+  "image": "",
+  "category": "Health",
+  "createdAt": {
+    "$date": "2024-08-16T18:55:50.335Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-16T18:55:50.335Z"
+  },
+  "__v": 0
+}]
