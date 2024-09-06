@@ -25,7 +25,7 @@ const AdvertisementBox = async () => {
                         <Image
                             className="object-cover w-full h-full"
                             layout="fill"
-                            src={reversedAds[0].mediaUrl}
+                            src={reversedAds[0].mediaUrl.replace('http://', 'https://')}
                             alt="1st"
                         />
                     ) : reversedAds[0].mediaType === 'video' ? (
@@ -34,7 +34,7 @@ const AdvertisementBox = async () => {
                             autoPlay
                             loop
                             muted
-                            src={reversedAds[0].mediaUrl}
+                            src={reversedAds[0].mediaUrl.replace('http://', 'https://')}
                             alt="1st"
                         />
                     ) : (

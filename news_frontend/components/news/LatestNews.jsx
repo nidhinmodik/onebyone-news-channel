@@ -33,7 +33,6 @@ const LatestNews = () => {
         try {
             const res = await fetch(`${base_api_url}/api/latest/news`)
             const data = await res.json()
-            console.log(data.news);
             setNews(data.news)
         } catch (error) {
             console.log(error)

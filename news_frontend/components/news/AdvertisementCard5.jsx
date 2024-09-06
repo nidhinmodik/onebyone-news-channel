@@ -20,7 +20,7 @@ const AdvertisementCard5 = async () => {
                         <Image
                             className="w-full h-[200px]"
                             layout="fill"
-                            src={reversedAds[5].mediaUrl}
+                            src={reversedAds[5].mediaUrl.replace('http://', 'https://')}
                             alt="6th"
                         />
                     ) : reversedAds[5].mediaType === 'video' ? (
@@ -29,7 +29,7 @@ const AdvertisementCard5 = async () => {
                             autoPlay
                             loop
                             muted
-                            src={reversedAds[5].mediaUrl}
+                            src={reversedAds[5].mediaUrl.replace('http://', 'https://')}
                             alt="6th"
                         />
                     ) : (
